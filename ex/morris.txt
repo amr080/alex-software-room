@@ -1,0 +1,15 @@
+Unpack the malicious files or programs (possibly viruses or Trojans) it smuggled inside.
+Use an algorithm to find and delete all files associated with security programs or tools.
+Add values to AutoRun keys in the  Registry of the infected system, including a registry service that hides the malware’s  executable and runs it at every Windows start.
+Create temp files and assume the trusted file extensions of legitimate Registry, system, or .dll files to hide its malicious activity from  scanning tools or prying eyes.
+Use an algorithm to locate all drives (internal or external) and nodes so it can infect them. Nodes include DCE (modem, hub, bridge, or switch) or DTE (digital phone handset, printer, router, workstation, or server) elements. 
+Create a new directory and drop malicious files.
+Install a keylogger to log key data, i.e. of a financial matter, and send the logged information to a remote server.
+Open a port and connect to an IRC (Internet Relay Chat) server to report findings or receive new instructions.
+Download a Trojan backdoor and give a hacker secret remote access so that he can turn the compromised  system into a zombie, distribute a DNS attack, or launch a mass email spam campaign.
+Overtake your email account so it can send a copy of its venomous file to every address in your contact list. This can be extremely dangerous for poorly managed networks, especially those allowing firewall penetrations.
+Install system hooks and hide processes.
+Restrict Windows functionalities and intercept program messages, especially ones warning of a malware intrusion.
+Introduce and support presence of a rogue security program using fake alerts, warnings, scans and reporting to scare the victim into buying fraudulent and useless software.
+
+https://www.enigmasoftware.com/threat-database/worms/
