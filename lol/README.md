@@ -43,3 +43,10 @@ http://www.informit.com/articles/article.aspx?p=366891&seqNum=2
 ```plaintext
 mailwash14.pair.com (66.39.2.55)
 ```
+
+
+All URLs attempting to send data to New Relic servers
+Consistent pattern of failed connections
+Multiple unique identifiers in URL parameters
+Attempts to harvest browser session data
+Consistent timestamp patterns in requests
