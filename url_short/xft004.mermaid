@@ -1,0 +1,18 @@
+sequenceDiagram
+    participant User
+    participant Express
+    participant GoogleSheets
+    
+    %% URL Creation
+    User->>Express: POST /s/new (long URL)
+    Express->>Express: Generate short code
+    Express->>GoogleSheets: Store URL mapping
+    GoogleSheets-->>Express: Confirm storage
+    Express-->>User: Return short URL
+
+    %% URL Redirection
+    User->>Express: GET /s/:code
+    Express->>GoogleSheets: Lookup original URL
+    GoogleSheets-->>Express: Return original URL
+    Express->>GoogleSheets: Log analytics (async)
+    Express-->>User: Redirect to original URL
