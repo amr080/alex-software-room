@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant User
+    participant Device
+    participant Stage1 as Stage 1 (WebKit Exploit)
+    participant Stage2 as Stage 2 (Jailbreak)
+    participant Stage3 as Stage 3 (Espionage Software)
+
+    User->>Device: Click malicious link
+    Device->>Stage1: Load exploit webpage
+    Stage1->>Stage2: Download & execute jailbreak
+    Stage2->>Stage3: Download & install spyware
+    Stage3->>Device: Hook into system & apps
+    Device->>User: No visible changes
