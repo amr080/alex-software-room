@@ -1,0 +1,16 @@
+sequenceDiagram
+    participant U as User
+    participant B as Browser
+    participant W as informit.com
+    participant NR as New Relic Servers
+
+    U->>B: Navigate to informit.com
+    B->>W: Request page
+    W->>B: Send page content
+    B->>U: Display page
+    loop Multiple attempts
+        W->>B: Trigger analytics
+        B--xNR: Attempt to send data
+        Note over B,NR: ERR_INTERNET_DISCONNECTED
+    end
+    B->>U: Show cookie warnings
