@@ -1,4 +1,4 @@
-## Salt Typhoon Case
+## Salt Typhoon 
 
 1. Primary Analytics URL Pattern:
 
