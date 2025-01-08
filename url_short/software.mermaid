@@ -1,0 +1,26 @@
+sequenceDiagram
+    actor User
+    participant URLShortener
+    participant Database
+    participant Browser
+
+    %% URL Shortening Flow
+    User->>URLShortener: Submit long URL
+    URLShortener->>Database: Check if URL exists
+    alt URL already exists
+        Database-->>URLShortener: Return existing short URL
+        URLShortener-->>User: Return short URL
+    else URL is new
+        URLShortener->>URLShortener: Generate short code
+        URLShortener->>Database: Store short code & original URL
+        Database-->>URLShortener: Confirm storage
+        URLShortener-->>User: Return new short URL
+    end
+
+    %% Redirection Flow
+    User->>Browser: Click short URL
+    Browser->>URLShortener: Request short URL
+    URLShortener->>Database: Look up original URL
+    Database-->>URLShortener: Return original URL
+    URLShortener-->>Browser: HTTP redirect to original URL
+    Browser->>Browser: Load original webpage
