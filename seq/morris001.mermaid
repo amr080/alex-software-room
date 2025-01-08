@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant OriginalHost
+    participant Network
+    participant NewHost
+    participant Payload
+
+    OriginalHost->>Network: Scan for vulnerable hosts
+    Network->>NewHost: Exploit vulnerability
+    OriginalHost->>NewHost: Transfer replication code
+    NewHost->>NewHost: Execute replication code
+    NewHost->>NewHost: Install payload
+    Payload->>NewHost: Execute on host resources
+    NewHost->>Network: Begin scanning for new hosts
