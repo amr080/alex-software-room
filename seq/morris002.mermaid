@@ -1,0 +1,18 @@
+sequenceDiagram
+    participant OriginalHost
+    participant Network
+    participant NewHost
+    participant Payload
+    participant PersistenceMechanism
+    participant SpreadingModule
+
+    OriginalHost->>SpreadingModule: Initiate spread
+    SpreadingModule->>Network: Scan for vulnerable hosts
+    Network->>NewHost: Identify vulnerability
+    SpreadingModule->>NewHost: Exploit vulnerability
+    SpreadingModule->>NewHost: Transfer payload
+    NewHost->>Payload: Execute payload
+    Payload->>PersistenceMechanism: Install persistence hooks
+    PersistenceMechanism->>NewHost: Modify system to ensure survival
+    Payload->>SpreadingModule: Initialize spreading module
+    SpreadingModule->>Network: Begin scanning for new targets
