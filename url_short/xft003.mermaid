@@ -1,0 +1,21 @@
+sequenceDiagram
+    actor User
+    participant Express as Express Server
+    participant Database
+    participant GoogleSheets as Google Sheets API
+
+    %% URL Shortening
+    User->>Express: POST /shorten (long URL)
+    Express->>Database: Save URL mapping
+    Database-->>Express: Confirm storage
+    Express-->>User: Return short URL (xft.finance/abc123)
+
+    %% URL Redirection with Basic Metrics
+    User->>Express: GET /abc123
+    Express->>Express: Collect basic metrics
+    Note over Express: IP, Timestamp, Device type, Referrer, Browser info
+    Express->>GoogleSheets: Log click data
+    GoogleSheets-->>Express: Confirm logging
+    Express->>Database: Get original URL
+    Database-->>Express: Return original URL
+    Express-->>User: 301 Redirect to original URL
