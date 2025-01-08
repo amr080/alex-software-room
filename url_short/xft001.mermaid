@@ -1,0 +1,26 @@
+sequenceDiagram
+    participant User
+    participant Express
+    participant Analytics
+    participant Database
+    participant Browser
+
+    %% URL Creation
+    User->>Express: POST /api/shorten (long URL)
+    Express->>Database: Check if URL exists
+    alt URL exists
+        Database-->>Express: Return existing short code
+    else New URL
+        Express->>Express: Generate short code
+        Express->>Database: Save URL mapping
+    end
+    Express-->>User: Return short URL
+
+    %% URL Redirection with Analytics
+    User->>Express: GET /shortCode
+    Express->>Analytics: Collect request data
+    Analytics->>Database: Store metrics
+    Express->>Database: Lookup original URL
+    Database-->>Express: Return long URL
+    Express->>Browser: 301 Redirect
+    Browser->>User: Load original page
