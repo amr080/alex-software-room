@@ -1,0 +1,17 @@
+The browser was making repeated attempts to contact New Relic's monitoring servers (bam.nr-data.net)
+All these requests failed with ERR_INTERNET_DISCONNECTED
+The application ID (90967276) and session IDs were being tracked
+There were automated redirects to informit.com with specific parameters
+The pattern suggests possible malicious activity:
+
+  1. Multiple rapid requests
+  2. Failed network connections
+  3. Automated redirects
+  4. Presence of tracking IDs
+  5. Suspicious URL parameters
+
+The sequence suggests that after visiting rbs2.com, something triggered multiple automated requests and redirects, possibly indicating:
+
+- A cross-site scripting (XSS) attack
+- A redirect chain exploit
+- Attempted data exfiltration
