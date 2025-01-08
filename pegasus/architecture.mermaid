@@ -1,0 +1,29 @@
+sequenceDiagram
+    participant User
+    participant Device
+    participant Stage1 as Stage 1 (WebKit Exploit)
+    participant Stage2 as Stage 2 (Jailbreak)
+    participant Stage3 as Stage 3 (Espionage Software)
+    participant Apps
+    participant SystemProcesses
+    participant C2Server as Command & Control Server
+
+    User->>Device: Click malicious link
+    Device->>Stage1: Load exploit webpage
+    Stage1->>Stage1: Exploit WebKit vulnerability (CVE-2016-4657)
+    Stage1->>Stage2: Download & execute jailbreak
+    Stage2->>Stage2: Exploit kernel vulnerabilities (CVE-2016-4655, CVE-2016-4656)
+    Stage2->>Stage2: Jailbreak device
+    Stage2->>Stage3: Download & install spyware
+    Stage3->>SystemProcesses: Replace system daemons for persistence
+    Stage3->>Apps: Inject hooks into target apps
+    Stage3->>Device: Disable system updates
+    Stage3->>Device: Monitor device status
+    loop Continuous Monitoring
+        Stage3->>Apps: Intercept data (messages, calls, etc.)
+        Stage3->>SystemProcesses: Collect system data (GPS, Wi-Fi, etc.)
+        Stage3->>C2Server: Exfiltrate collected data
+        C2Server->>Stage3: Send commands (if any)
+    end
+    Stage3->>Stage3: Self-destruct if threatened
+    C2Server->>Device: Send SMS for stealth C2 update (if needed)
