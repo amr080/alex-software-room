@@ -1,0 +1,31 @@
+sequenceDiagram
+    participant User
+    participant Browser
+    participant Renderer
+    participant JavaScript Engine
+    participant DOM
+    participant Network Layer
+    participant MaliciousWebsite
+    participant Attacker
+    participant C#43;C#43; Vulnerability
+    participant Browser Extensions
+    participant Operating System
+
+    User->>Browser: Visits compromised website
+    Browser->>Network Layer: Initiates connection
+    Network Layer->>MaliciousWebsite: Sends HTTP request
+    MaliciousWebsite->>Network Layer: Returns malicious HTML/JS
+    Network Layer->>Browser: Passes content
+    Browser->>Renderer: Renders page content
+    Renderer->>JavaScript Engine: Executes JavaScript
+    JavaScript Engine->>DOM: Manipulates page structure
+    JavaScript Engine->>C#43;C#43; Vulnerability: Triggers unknown flaw
+    C#43;C#43; Vulnerability->>Attacker: Provides unauthorized access
+    Attacker->>JavaScript Engine: Injects malicious code
+    JavaScript Engine->>Browser Extensions: Attempts to access
+    Browser Extensions->>Attacker: Potentially leaks sensitive data
+    Attacker->>Operating System: Attempts privilege escalation
+    Operating System->>Attacker: Grants elevated permissions (if successful)
+    Attacker->>Browser: Installs persistent backdoor
+    Browser->>User: Displays seemingly normal content
+    Attacker->>User: Silently harvests data over time
