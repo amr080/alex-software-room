@@ -1,0 +1,17 @@
+sequenceDiagram
+    participant User
+    participant Express
+    participant GoogleSheets
+    participant Database
+
+    %% Create Short URL
+    User->>Express: POST /shorten
+    Express->>Database: Save URL mapping
+    Express->>User: Return short URL (xft.finance/abc123)
+
+    %% Click Tracking
+    User->>Express: GET /abc123
+    Express->>Express: Collect basic metrics
+    Express->>GoogleSheets: Log click data
+    Express->>Database: Get original URL
+    Express->>User: Redirect to original URL
