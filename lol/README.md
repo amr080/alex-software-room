@@ -45,8 +45,29 @@ mailwash14.pair.com (66.39.2.55)
 ```
 
 
-All URLs attempting to send data to New Relic servers
-Consistent pattern of failed connections
-Multiple unique identifiers in URL parameters
-Attempts to harvest browser session data
-Consistent timestamp patterns in requests
+### New Relic
+
+Endpoints:
+
+https://bam.nr-data.net/browser/blobs      # Browser session tracking
+https://bam.nr-data.net/jserrors/1/        # JavaScript error reporting 
+https://bam.nr-data.net/events/1/          # Event tracking
+https://bam.nr-data.net/ins/1/             # Instrumentation data
+
+/browser/blobs
+/jserrors/1/
+/events/1/
+/ins/1/
+
+Key parameters:
+
+browser_monitoring_key: NRBR-0fefdffb87aeaab02ff
+app_id: 90967276
+agentVersion: 1.277.0
+session: 6138efbd9eeda429
+entityGuid: MTMyMjQ4MHxCUk9XU0VSfEFQUExJQ0FUSU9OfDkwOTY3Mjk0
+
+
+### diagnosis
+
+The website (informit.com) was trying to send analytics data to New Relic's servers at bam.nr-data.net but failed due to an internet connectivity issue.
