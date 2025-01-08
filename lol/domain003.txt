@@ -3,7 +3,7 @@ CNAME	bam.nr-data.net	bam.cell.nr-data.net	60 min	Blacklist Check      SMTP Test
   URLS
   bam.cell.nr-data.net
   http://nr-data.net
-
+BAM.CELL.NR-DATA.NET
 
 
 
@@ -115,3 +115,173 @@ ElapsedTime: 0 ms
 Result: Received 8 Answers , rcode=NO_ERROR
 Question:
 Answers: nr-data.net. 14400 IN NS dns1.p07.nsone.net,nr-data.net. 14400 IN NS dns2.p07.nsone.net,nr-data.net. 14400 IN NS dns3.p07.nsone.net,nr-data.net. 14400 IN NS dns4.p07.nsone.net,nr-data.net. 14400 IN NS ns01.nr-dns.net,nr-data.net. 14400 IN NS ns02.nr-dns.net,nr-data.net. 14400 IN NS ns03.nr-dns.net,nr-data.net. 14400 IN NS ns04.nr-dns.net,
+
+
+
+
+=============================
+
+7 Problems
+Category	Host	Result	
+Status Problem	http	bam.cell.nr-data.net	The remote server returned an error: (308) Permanent Redirect. (http://bam.cell.nr-data.net)	information More Info
+Status Problem	spf	bam.cell.nr-data.net	No SPF Record found	information More Info
+Status Warning	dns	bam.cell.nr-data.net	Bad Glue Detected	information More Info
+Status Warning	dns	bam.cell.nr-data.net	At least one name server failed to respond in a timely manner	information More Info
+Status Warning	dns	bam.cell.nr-data.net	Local NS list does not match Parent NS list	information More Info
+Status Warning	dns	bam.cell.nr-data.net	Name Servers are on the Same Subnet	information More Info
+Status Warning	dns	bam.cell.nr-data.net	Serial numbers do not match	information More Info
+Blacklists
+blacklist:bam.cell.nr-data.net
+Category	Host	Result	
+Status Ok	blacklist	bam.cell.nr-data.net	ivmURI	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	Nordspam DBL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SEM FRESH	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SEM URI	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SEM URIRED	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SORBS RHSBL BADCONF	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SORBS RHSBL NOMAIL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	Spamhaus DBL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SURBL multi	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	0SPAM	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	0SPAM RBL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	127.0.0.2	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	127.0.1.1	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	127.0.0.2	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	Anonmails DNSBL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	BACKSCATTERER	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	BARRACUDA	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	BLOCKLIST.DE	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	CALIVENT	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	CYMRU BOGONS	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	DAN TOR	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	DAN TOREXIT	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	DRMX	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	DRONE BL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	FABELSOURCES	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	HIL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	HIL2	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	127.0.0.2	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	IBM DNS Blacklist	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	ICMFORBIDDEN	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	IMP SPAM	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	IMP WORM	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	INTERSERVER	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	ivmSIP	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	ivmSIP24	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	JIPPG	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	KEMPTBL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	Konstant	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	LASHBACK	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	MAILSPIKE BL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	MAILSPIKE Z	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	MSRBL Phishing	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	MSRBL Spam	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	NETHERRELAYS	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	NETHERUNSURE	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	NIXSPAM	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	Nordspam BL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	NoSolicitado	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	PSBL	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	RATS Dyna	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	RATS NoPtr	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	RATS Spam	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	RBL JP	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	s5h.net	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SCHULTE	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SEM BACKSCATTER	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SEM BLACK	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	Sender Score Reputation Network	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SERVICESNET	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SPAMCOP	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	Spamhaus ZEN	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	127.0.0.2	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	Suomispam Reputation	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	SWINOG	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	TRIUMF	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	TRUNCATE	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	UCEPROTECTL1	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	UCEPROTECTL2	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	UCEPROTECTL3	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	Woodys SMTP Blacklist	information More Info
+Status Ok	blacklist	bam.cell.nr-data.net	ZapBL	information More Info
+Mail Server
+mx:bam.cell.nr-data.net
+Pref	Hostname	IP Address	TTL
+5 min
+dmarc:bam.cell.nr-data.net
+Category	Host	Result	
+Status Ok	dmarc	bam.cell.nr-data.net	DMARC Record found	information More Info
+Status Ok	dmarc	bam.cell.nr-data.net	The record is valid	information More Info
+Status Ok	dmarc	bam.cell.nr-data.net	All external domains in your DMARC record are giving permission to send them DMARC reports.	information More Info
+Status Ok	dmarc	bam.cell.nr-data.net	Multiple DMARC records corrected to a single record.	information More Info
+Status Ok	dmarc	bam.cell.nr-data.net	DMARC Quarantine/Reject policy enabled	information More Info
+spf:bam.cell.nr-data.net - 1 Tests Failed
+Category	Host	Result	
+Status Problem	spf	bam.cell.nr-data.net	No SPF Record found	information More Info
+Type	Domain Name	TTL	Record	Prefix	Value	PrefixDesc	Description
+Web Server
+http:bam.cell.nr-data.net - 1 Tests Failed
+Category	Host	Result	
+Status Problem	http	bam.cell.nr-data.net	The remote server returned an error: (308) Permanent Redirect. (http://bam.cell.nr-data.net)	information More Info
+Dns Server
+dns:bam.cell.nr-data.net
+Category	Host	Result	
+Status Warning	dns	bam.cell.nr-data.net	Bad Glue Detected	information More Info
+Status Warning	dns	bam.cell.nr-data.net	At least one name server failed to respond in a timely manner	information More Info
+Status Warning	dns	bam.cell.nr-data.net	Local NS list does not match Parent NS list	information More Info
+Status Warning	dns	bam.cell.nr-data.net	Name Servers are on the Same Subnet	information More Info
+Status Warning	dns	bam.cell.nr-data.net	Serial numbers do not match	information More Info
+Status Ok	dns	bam.cell.nr-data.net	DNS Record found	information More Info
+Status Ok	dns	bam.cell.nr-data.net	At Least Two Name Servers Found	information More Info
+Status Ok	dns	bam.cell.nr-data.net	All of the name servers are Authoritative	information More Info
+Status Ok	dns	bam.cell.nr-data.net	Name Servers have Public IP Addresses	information More Info
+Status Ok	dns	bam.cell.nr-data.net	Primary Name Server Listed At Parent	information More Info
+Status Ok	dns	bam.cell.nr-data.net	SOA Serial Number Format appears valid	information More Info
+Status Ok	dns	bam.cell.nr-data.net	SOA Refresh Value is within the recommended range	information More Info
+Status Ok	dns	bam.cell.nr-data.net	SOA Retry Value is within the recommended range	information More Info
+Status Ok	dns	bam.cell.nr-data.net	SOA Expire Value within recommended limits	information More Info
+Status Ok	dns	bam.cell.nr-data.net	SOA Minimum TTL Value is within allowed values	information More Info
+Status Ok	dns	bam.cell.nr-data.net	No Open Recursive Name Server Detected	information More Info
+DNS
+Type	Domain Name	IP Address	TTL	Time (ms)	Status	Auth	Parent	Local
+CNAME	bam.cell.nr-data.net	162.247.243.29	5 min		Status Problem		Status Problem	Status Ok
+NS	ns02.nr-dns.net	157.53.229.65		10	Status Ok	Status Ok	Status Ok	Status Problem
+NS	dns4.p07.nsone.net	198.51.45.71		10	Status Ok	Status Ok	Status Ok	Status Problem
+NS	ns01.nr-dns.net	157.53.229.1		12	Status Ok	Status Ok	Status Ok	Status Problem
+NS	dns2.p07.nsone.net	198.51.45.7			Status Ok	Status Ok	Status Ok	Status Problem
+NS	dns3.p07.nsone.net	198.51.44.71			Status Ok	Status Ok	Status Ok	Status Problem
+NS	ns04.nr-dns.net	157.53.229.193		12	Status Ok	Status Ok	Status Ok	Status Problem
+NS	ns03.nr-dns.net	157.53.229.129		12	Status Ok	Status Ok	Status Ok	Status Problem
+NS	dns1.p07.nsone.net	198.51.44.7			Status Ok	Status Ok	Status Ok	Status Problem
+Session Transcript:
+TimeStamp:
+LookupServer 5682ms
+
+Depth: 1
+ServerName: i.gtld-servers.net
+ServerIP: 192.43.172.30
+Authoritative: NON-AUTH
+ElapsedTime: 134 ms
+Result: Received 8 Referrals , rcode=NO_ERROR
+Question:
+Answers: nr-data.net. 172800 IN NS dns1.p07.nsone.net,nr-data.net. 172800 IN NS dns2.p07.nsone.net,nr-data.net. 172800 IN NS dns3.p07.nsone.net,nr-data.net. 172800 IN NS dns4.p07.nsone.net,nr-data.net. 172800 IN NS ns01.nr-dns.net,nr-data.net. 172800 IN NS ns02.nr-dns.net,nr-data.net. 172800 IN NS ns03.nr-dns.net,nr-data.net. 172800 IN NS ns04.nr-dns.net,
+
+TimeStamp:
+Depth: 2
+ServerName: ns02.nr-dns.net
+ServerIP: 157.53.229.65
+Authoritative: AUTH
+ElapsedTime: 16 ms
+Result: Received 1 Answers , rcode=NO_ERROR
+Question:
+Answers: bam.cell.nr-data.net. 300 IN CNAME bam.nr-data.net.cdn.cloudflare.net,
+
+
+Web Server
+http:bam.cell.nr-data.net - 1 Tests Failed
+Category	Host	Result	
+Status Problem	http	bam.cell.nr-data.net	The remote server returned an error: (308) Permanent Redirect. (http://bam.cell.nr-data.net)	information More Info
+
+
+
+
