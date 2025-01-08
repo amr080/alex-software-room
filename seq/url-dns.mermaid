@@ -1,0 +1,26 @@
+sequenceDiagram
+    participant User
+    participant CustomDNS as Custom DNS
+    participant EdgeServer as Edge Server
+    participant LoadBalancer as Load Balancer
+    participant AppServer as App Server
+    participant CacheCluster as Cache Cluster
+    participant Database
+    participant AnalyticsEngine as Analytics Engine
+
+    User->>CustomDNS: Resolve short URL
+    CustomDNS->>EdgeServer: Route to nearest edge
+    EdgeServer->>CacheCluster: Check URL mapping
+    alt URL in cache
+        CacheCluster-->>EdgeServer: Return long URL
+    else URL not in cache
+        EdgeServer->>LoadBalancer: Forward request
+        LoadBalancer->>AppServer: Route request
+        AppServer->>Database: Query long URL
+        Database-->>AppServer: Return long URL
+        AppServer->>CacheCluster: Update cache
+        AppServer-->>EdgeServer: Return long URL
+    end
+    EdgeServer->>AnalyticsEngine: Log click data (async)
+    EdgeServer-->>User: Redirect to long URL
+    AnalyticsEngine->>Database: Store analytics
