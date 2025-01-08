@@ -1,0 +1,22 @@
+sequenceDiagram
+    participant User
+    participant Browser
+    participant RBS2 as www.rbs2.com
+    participant NR as New Relic (bam.nr-data.net)
+    participant Informit as informit.com
+    
+    User->>RBS2: 1. Initial visit
+    Note over Browser,RBS2: Possible malicious code injection
+    
+    rect rgb(240, 128, 128)
+        Browser->>NR: Multiple failed monitoring requests
+        NR-->>Browser: ERR_INTERNET_DISCONNECTED
+    end
+    
+    rect rgb(255, 200, 200)
+        Browser->>Informit: Redirect to addTo.aspx
+        Note over Browser,Informit: Suspicious parameters:<br/>p=feab3e8a-...<br/>e=bc4c912f-...
+        Informit->>Informit: Internal redirects
+    end
+    
+    Note over Browser: Browser security warning:<br/>Third-party cookie notification
