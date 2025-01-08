@@ -1,0 +1,117 @@
+CNAME	bam.nr-data.net	bam.cell.nr-data.net	60 min	Blacklist Check      SMTP Test
+
+  URLS
+  bam.cell.nr-data.net
+  http://nr-data.net
+
+
+
+
+
+
+
+
+
+==================================
+  5 Problems
+Category	Host	Result	
+Status Problem	http	nr-data.net	The remote name could not be resolved: 'nr-data.net' (http://nr-data.net)	information More Info
+Status Problem	mx	nr-data.net	DNS Record not found	information More Info
+Status Warning	dns	nr-data.net	Name Servers are on the Same Subnet	information More Info
+Status Warning	dns	nr-data.net	SOA Serial Number Format is Invalid	information More Info
+Status Warning	dns	nr-data.net	SOA Expire Value out of recommended range	information More Info
+Blacklists
+blacklist:nr-data.net
+Category	Host	Result	
+Status Ok	blacklist	nr-data.net	ivmURI	information More Info
+Status Ok	blacklist	nr-data.net	Nordspam DBL	information More Info
+Status Ok	blacklist	nr-data.net	SEM FRESH	information More Info
+Status Ok	blacklist	nr-data.net	SEM URI	information More Info
+Status Ok	blacklist	nr-data.net	SEM URIRED	information More Info
+Status Ok	blacklist	nr-data.net	SORBS RHSBL BADCONF	information More Info
+Status Ok	blacklist	nr-data.net	SORBS RHSBL NOMAIL	information More Info
+Status Ok	blacklist	nr-data.net	Spamhaus DBL	information More Info
+Status Ok	blacklist	nr-data.net	SURBL multi	information More Info
+Mail Server
+mx:nr-data.net - 1 Tests Failed
+Pref	Hostname	IP Address	TTL
+dmarc:nr-data.net
+Category	Host	Result	
+Status Ok	dmarc	nr-data.net	DMARC Record found	information More Info
+Status Ok	dmarc	nr-data.net	The record is valid	information More Info
+Status Ok	dmarc	nr-data.net	All external domains in your DMARC record are giving permission to send them DMARC reports.	information More Info
+Status Ok	dmarc	nr-data.net	Multiple DMARC records corrected to a single record.	information More Info
+Status Ok	dmarc	nr-data.net	DMARC Quarantine/Reject policy enabled	information More Info
+spf:nr-data.net
+Category	Host	Result	
+Status Ok	spf	nr-data.net	SPF Record found	information More Info
+Status Ok	spf	nr-data.net	No deprecated records found	information More Info
+Status Ok	spf	nr-data.net	Less than two records found	information More Info
+Status Ok	spf	nr-data.net	No items after 'ALL'.	information More Info
+Status Ok	spf	nr-data.net	The record is valid	information More Info
+Status Ok	spf	nr-data.net	Number of included lookups is OK	information More Info
+Status Ok	spf	nr-data.net	Nor Recursive Loops on Includes	information More Info
+Status Ok	spf	nr-data.net	No Duplicate Includes Found	information More Info
+Status Ok	spf	nr-data.net	No type PTR found	information More Info
+Status Ok	spf	nr-data.net	Number of void lookups is OK	information More Info
+Status Ok	spf	nr-data.net	Number of MX Resource Records is OK	information More Info
+Status Ok	spf	nr-data.net	No Null DNS Lookups found	information More Info
+Type	Domain Name	TTL	Record	Prefix	Value	PrefixDesc	Description
+record					txt		v=spf1 -all
+v					spf1		The SPF record version
+all				-		Fail	Always matches. It goes at the end of your record.
+Web Server
+http:nr-data.net - 1 Tests Failed
+Category	Host	Result	
+Status Problem	http	nr-data.net	The remote name could not be resolved: 'nr-data.net' (http://nr-data.net)	information More Info
+Dns Server
+dns:nr-data.net
+Category	Host	Result	
+Status Warning	dns	nr-data.net	Name Servers are on the Same Subnet	information More Info
+Status Warning	dns	nr-data.net	SOA Serial Number Format is Invalid	information More Info
+Status Warning	dns	nr-data.net	SOA Expire Value out of recommended range	information More Info
+Status Ok	dns	nr-data.net	DNS Record found	information More Info
+Status Ok	dns	nr-data.net	No Bad Glue Detected	information More Info
+Status Ok	dns	nr-data.net	At Least Two Name Servers Found	information More Info
+Status Ok	dns	nr-data.net	All name servers are responding	information More Info
+Status Ok	dns	nr-data.net	All of the name servers are Authoritative	information More Info
+Status Ok	dns	nr-data.net	Local NS list matches Parent NS list	information More Info
+Status Ok	dns	nr-data.net	Name Servers have Public IP Addresses	information More Info
+Status Ok	dns	nr-data.net	Serial numbers match	information More Info
+Status Ok	dns	nr-data.net	Primary Name Server Listed At Parent	information More Info
+Status Ok	dns	nr-data.net	SOA Refresh Value is within the recommended range	information More Info
+Status Ok	dns	nr-data.net	SOA Retry Value is within the recommended range	information More Info
+Status Ok	dns	nr-data.net	SOA Minimum TTL Value is within allowed values	information More Info
+Status Ok	dns	nr-data.net	No Open Recursive Name Server Detected	information More Info
+DNS
+Type	Domain Name	IP Address	TTL	Time (ms)	Status	Auth	Parent	Local
+NS	dns1.p07.nsone.net	198.51.44.7	4 hrs		Status Ok	Status Ok	Status Ok	Status Ok
+NS	dns2.p07.nsone.net	198.51.45.7	4 hrs		Status Ok	Status Ok	Status Ok	Status Ok
+NS	dns3.p07.nsone.net	198.51.44.71	4 hrs		Status Ok	Status Ok	Status Ok	Status Ok
+NS	dns4.p07.nsone.net	198.51.45.71	4 hrs		Status Ok	Status Ok	Status Ok	Status Ok
+NS	ns01.nr-dns.net	157.53.229.1	4 hrs	16	Status Ok	Status Ok	Status Ok	Status Ok
+NS	ns02.nr-dns.net	157.53.229.65	4 hrs	16	Status Ok	Status Ok	Status Ok	Status Ok
+NS	ns03.nr-dns.net	157.53.229.129	4 hrs	16	Status Ok	Status Ok	Status Ok	Status Ok
+NS	ns04.nr-dns.net	157.53.229.193	4 hrs	16	Status Ok	Status Ok	Status Ok	Status Ok
+Session Transcript:
+TimeStamp:
+LookupServer 1297ms
+
+Depth: 1
+ServerName: c.gtld-servers.net
+ServerIP: 192.26.92.30
+Authoritative: NON-AUTH
+ElapsedTime: 16 ms
+Result: Received 8 Referrals , rcode=NO_ERROR
+Question:
+Answers: nr-data.net. 172800 IN NS dns1.p07.nsone.net,nr-data.net. 172800 IN NS dns2.p07.nsone.net,nr-data.net. 172800 IN NS dns3.p07.nsone.net,nr-data.net. 172800 IN NS dns4.p07.nsone.net,nr-data.net. 172800 IN NS ns01.nr-dns.net,nr-data.net. 172800 IN NS ns02.nr-dns.net,nr-data.net. 172800 IN NS ns03.nr-dns.net,nr-data.net. 172800 IN NS ns04.nr-dns.net,
+
+TimeStamp:
+Depth: 2
+ServerName: dns2.p07.nsone.net
+ServerIP: 198.51.45.7
+Authoritative: AUTH
+ElapsedTime: 0 ms
+Result: Received 8 Answers , rcode=NO_ERROR
+Question:
+Answers: nr-data.net. 14400 IN NS dns1.p07.nsone.net,nr-data.net. 14400 IN NS dns2.p07.nsone.net,nr-data.net. 14400 IN NS dns3.p07.nsone.net,nr-data.net. 14400 IN NS dns4.p07.nsone.net,nr-data.net. 14400 IN NS ns01.nr-dns.net,nr-data.net. 14400 IN NS ns02.nr-dns.net,nr-data.net. 14400 IN NS ns03.nr-dns.net,nr-data.net. 14400 IN NS ns04.nr-dns.net,
