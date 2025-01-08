@@ -1,0 +1,27 @@
+sequenceDiagram
+    participant User
+    participant Browser
+    participant NextjsServer as Next.js Server
+    participant InMemoryDB as In-Memory Database
+
+    User->>Browser: Enter long URL
+    Browser->>NextjsServer: POST /api/shorten
+    NextjsServer->>InMemoryDB: Store long URL, generate short ID
+    InMemoryDB-->>NextjsServer: Return short ID
+    NextjsServer-->>Browser: Return shortened URL
+    Browser-->>User: Display shortened URL
+
+    User->>Browser: Click shortened URL
+    Browser->>NextjsServer: GET /:id
+    NextjsServer->>InMemoryDB: Lookup long URL by ID
+    InMemoryDB-->>NextjsServer: Return long URL
+    NextjsServer->>InMemoryDB: Increment click count
+    NextjsServer-->>Browser: Redirect to long URL
+    Browser-->>User: Display original website
+
+    User->>Browser: View URL list
+    Browser->>NextjsServer: GET /api/urls
+    NextjsServer->>InMemoryDB: Fetch all URLs and click counts
+    InMemoryDB-->>NextjsServer: Return URL data
+    NextjsServer-->>Browser: Send URL list
+    Browser-->>User: Display URL list with click counts
