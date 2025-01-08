@@ -1,0 +1,24 @@
+sequenceDiagram
+    participant User
+    participant Browser
+    participant TCP/IP Stack
+    participant DNS Resolver
+    participant Renderer Process
+    participant V8 Engine
+    participant Memory
+    participant Exploit
+
+    User->>Browser: Enter URL
+    Browser->>DNS Resolver: Resolve domain
+    DNS Resolver->>Browser: Return IP
+    Browser->>TCP/IP Stack: Establish connection
+    TCP/IP Stack->>Browser: Connection established
+    Browser->>TCP/IP Stack: Send HTTP request
+    TCP/IP Stack->>Browser: Receive response
+    Browser->>Renderer Process: Parse HTML/CSS
+    Renderer Process->>V8 Engine: Execute JavaScript
+    V8 Engine->>Memory: Allocate/deallocate
+    Exploit->>Memory: Overflow buffer
+    Memory->>V8 Engine: Execute malicious code
+    V8 Engine->>Browser: Compromised state
+    Browser->>User: Display page (compromised)
