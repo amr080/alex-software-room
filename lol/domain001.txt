@@ -1,0 +1,847 @@
+Domain Information
+Name: RBS2.COM
+Registry Domain ID: 1599098_DOMAIN_COM-VRSN
+Domain Status:
+clientTransferProhibited
+
+Nameservers:
+NS0.NS0.COM
+
+NS68.PAIR.COM
+
+Dates
+Registry Expiration: 2031-06-26 04:00:00 UTC
+Updated: 2021-06-27 00:20:46 UTC
+Created: 1998-06-27 04:00:00 UTC
+
+Contact Information
+Registrant:
+Name: PERFECT PRIVACY, LLC
+Email: fs9232kh66r@networksolutionsprivateregistration.com
+Whois Server: whois.networksolutions.com
+Phone: +1.5707088622
+Mailing Address: 5335 Gate Parkway care of Network Solutions PO Box 459, Jacksonville, FL, 32256, US
+
+Technical:
+Name: PERFECT PRIVACY, LLC
+Email: u45se5g32ew@networksolutionsprivateregistration.com
+Whois Server: whois.networksolutions.com
+Phone: +1.5707088622
+Mailing Address: 5335 Gate Parkway care of Network Solutions PO Box 459, Jacksonville, FL, 32256, US
+Administrative:
+Name: PERFECT PRIVACY, LLC
+Email: fs9232kh66r@networksolutionsprivateregistration.com
+Whois Server: whois.networksolutions.com
+Phone: +1.5707088622
+Mailing Address: 5335 Gate Parkway care of Network Solutions PO Box 459, Jacksonville, FL, 32256, US
+
+Registrar Information
+Name: Network Solutions, LLC
+IANA ID: 2
+Abuse contact email: domain.operations@web.com
+Abuse contact phone: +1.8777228662
+DNSSEC Information
+Delegation Signed: Unsigned
+
+Authoritative Servers
+Registry Server URL: https://rdap.verisign.com/com/v1/domain/rbs2.com
+Last updated from Registry RDAP DB: 2025-01-08T08:39:59Z
+Registrar Server URL: https://rdap.networksolutions.com/rdap/domain/RBS2.COM
+Last updated from Registrar RDAP DB: 2025-01-08T08:39:59Z
+
+
+
+Raw Registrar RDAP Response
+{
+  "rdapConformance": [
+    "rdap_level_0",
+    "icann_rdap_response_profile_0",
+    "icann_rdap_technical_implementation_guide_0"
+  ],
+  "notices": [
+    {
+      "title": "Status Codes",
+      "description": [
+        "For more information on domain status codes, please visit https://icann.org/epp"
+      ],
+      "links": [
+        {
+          "value": "https://icann.org/epp",
+          "href": "https://icann.org/epp",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "title": "RDDS Inaccuracy Complaint Form",
+      "description": [
+        "URL of the ICANN RDDS Inaccuracy Complaint Form:https://icann.org/wicf"
+      ],
+      "links": [
+        {
+          "value": "https://icann.org/wicf",
+          "href": "https://icann.org/wicf",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "title": "Terms of Service",
+      "description": [
+        "The data provided by the Registration Data Access Protocol (“RDAP”) and use of our RDAP service is governed by the RDAP terms below. We reserve the right to modify these RDAP terms at any time.",
+        "The information in the RDAP database is provided to you for informational purposes only, on an \"as is\" basis without any guarantee of accuracy.",
+        "By submitting a query, you certify that you have a legitimate purpose for requesting the data, that you will only use this data for lawful purposes and delete the data immediately when the data is no longer necessary for your lawful or legitimate purpose, and that, under no circumstances, will you use this data to: a) allow, enable, or otherwise support the transmission of unsolicited, commercial advertising or solicitations; or (b) enable high volume, automated electronic processes that send queries or data to the systems of any registry operator or ICANN-accredited registrar, except as reasonably necessary to register domain names or modify existing registrations.",
+        "The compilation, repackaging, dissemination, or other use of this data is expressly prohibited.",
+        "We reserve the right to restrict or terminate access to the database at any time in our sole discretion including, without limitation, for excessive querying of the database or for failure to otherwise abide by these RDAP terms.",
+        "Your IP address, the queried domain, the response, and a timestamp is stored for the purposes of maintaining the RDAP service and to ensure adherence with these RDAP terms.",
+        "By submitting this query, you agree to these RDAP terms.",
+        "NOTE: THIS RDAP DATABASE IS A CONTACT DATABASE ONLY. LACK OF A DOMAIN RECORD DOES NOT SIGNIFY DOMAIN AVAILABILITY."
+      ],
+      "links": [
+        {
+          "value": "https://legal.newfold.com",
+          "href": "https://legal.newfold.com",
+          "type": "text/html"
+        }
+      ]
+    }
+  ],
+  "objectClassName": "domain",
+  "handle": "1599098_DOMAIN_COM-VRSN",
+  "remarks": [
+    {
+      "title": "Private Registration",
+      "description": [
+        "This listing is a Network Solutions Private Registration. Mailcorrespondence to this address must be sent via USPS Express Mail(TM) or\nUSPS Certified Mail(R); all other mail will not be processed. Be sure to\ninclude the registrant's domain name in the address.\nThe data in Networksolutions.com's WHOIS database is provided to you by\nNetworksolutions.com for information purposes only, that is, to assist you in\nobtaining information about or related to a domain name registration\nrecord. Networksolutions.com makes this information available \"as is,\" and\ndoes not guarantee its accuracy. By submitting a WHOIS query, you\nagree that you will use this data only for lawful purposes and that,\nunder no circumstances will you use this data to: (1) allow, enable,\nor otherwise support the transmission of mass unsolicited, commercial\nadvertising or solicitations via direct mail, electronic mail, or by\ntelephone; or (2) enable high volume, automated, electronic processes\nthat apply to Networksolutions.com  (or its systems). The compilation,\nrepackaging, dissemination or other use of this data is expressly\nprohibited without the prior written consent of Networksolutions.com.\nNetworksolutions.com reserves the right to modify these terms at any time.\nBy submitting this query, you agree to abide by these terms.\nFor more information on Whois status codes, please visit\nhttps://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en."
+      ]
+    },
+    {
+      "title": "ICANN WHOIS Data Inaccuracy",
+      "description": [
+        "URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/"
+      ],
+      "links": [
+        {
+          "value": "http://wdprs.internic.net/",
+          "rel": "related",
+          "href": "http://wdprs.internic.net/",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "title": "Whois status codes",
+      "description": [
+        "For more information on Whois status codes, please visit https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en"
+      ],
+      "links": [
+        {
+          "value": "https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en",
+          "rel": "related",
+          "href": "https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en",
+          "type": "text/html"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "value": "https://rdap.networksolutions.com/rdap/domain/rbs2.com.",
+      "rel": "self",
+      "href": "https://rdap.networksolutions.com/rdap/domain/rbs2.com.",
+      "type": "application/rdap+json"
+    }
+  ],
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "1998-06-27T04:00:00Z"
+    },
+    {
+      "eventAction": "last changed",
+      "eventDate": "2021-06-27T00:21:55Z"
+    },
+    {
+      "eventAction": "last update of RDAP database",
+      "eventDate": "2021-06-27T00:21:55Z"
+    },
+    {
+      "eventAction": "expiration",
+      "eventDate": "2031-06-26T04:00:00Z"
+    }
+  ],
+  "status": [
+    "client transfer prohibited"
+  ],
+  "port43": "whois.networksolutions.com",
+  "entities": [
+    {
+      "objectClassName": "entity",
+      "links": [
+        {
+          "value": "https://rdap.networksolutions.com/rdap/entity/null",
+          "rel": "self",
+          "href": "https://rdap.networksolutions.com/rdap/entity/null",
+          "type": "application/rdap+json"
+        }
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "roles": [
+            "abuse"
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "email",
+                {},
+                "text",
+                "domain.operations@web.com"
+              ],
+              [
+                "tel",
+                {
+                  "type": "voice"
+                },
+                "text",
+                "+1.8777228662"
+              ]
+            ]
+          ]
+        }
+      ],
+      "roles": [
+        "registrar"
+      ],
+      "publicIds": [
+        {
+          "type": "IANA Registrar ID",
+          "identifier": "2"
+        }
+      ],
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "Network Solutions, LLC"
+          ]
+        ]
+      ]
+    },
+    {
+      "objectClassName": "entity",
+      "links": [
+        {
+          "value": "https://rdap.networksolutions.com/rdap/entity/",
+          "rel": "self",
+          "href": "https://rdap.networksolutions.com/rdap/entity/",
+          "type": "application/rdap+json"
+        }
+      ],
+      "port43": "whois.networksolutions.com",
+      "roles": [
+        "registrant"
+      ],
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "PERFECT PRIVACY, LLC"
+          ],
+          [
+            "email",
+            {},
+            "text",
+            "fs9232kh66r@networksolutionsprivateregistration.com"
+          ],
+          [
+            "tel",
+            {
+              "type": "voice"
+            },
+            "text",
+            "+1.5707088622"
+          ],
+          [
+            "adr",
+            {},
+            "text",
+            [
+              "",
+              "",
+              "5335 Gate Parkway care of Network Solutions PO Box 459",
+              "Jacksonville",
+              "FL",
+              "32256",
+              "US"
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "objectClassName": "entity",
+      "links": [
+        {
+          "value": "https://rdap.networksolutions.com/rdap/entity/",
+          "rel": "self",
+          "href": "https://rdap.networksolutions.com/rdap/entity/",
+          "type": "application/rdap+json"
+        }
+      ],
+      "port43": "whois.networksolutions.com",
+      "roles": [
+        "technical"
+      ],
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "PERFECT PRIVACY, LLC"
+          ],
+          [
+            "email",
+            {},
+            "text",
+            "u45se5g32ew@networksolutionsprivateregistration.com"
+          ],
+          [
+            "tel",
+            {
+              "type": "voice"
+            },
+            "text",
+            "+1.5707088622"
+          ],
+          [
+            "adr",
+            {},
+            "text",
+            [
+              "",
+              "",
+              "5335 Gate Parkway care of Network Solutions PO Box 459",
+              "Jacksonville",
+              "FL",
+              "32256",
+              "US"
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "objectClassName": "entity",
+      "links": [
+        {
+          "value": "https://rdap.networksolutions.com/rdap/entity/",
+          "rel": "self",
+          "href": "https://rdap.networksolutions.com/rdap/entity/",
+          "type": "application/rdap+json"
+        }
+      ],
+      "port43": "whois.networksolutions.com",
+      "roles": [
+        "administrative"
+      ],
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "PERFECT PRIVACY, LLC"
+          ],
+          [
+            "email",
+            {},
+            "text",
+            "fs9232kh66r@networksolutionsprivateregistration.com"
+          ],
+          [
+            "tel",
+            {
+              "type": "voice"
+            },
+            "text",
+            "+1.5707088622"
+          ],
+          [
+            "adr",
+            {},
+            "text",
+            [
+              "",
+              "",
+              "5335 Gate Parkway care of Network Solutions PO Box 459",
+              "Jacksonville",
+              "FL",
+              "32256",
+              "US"
+            ]
+          ]
+        ]
+      ]
+    }
+  ],
+  "lang": "en",
+  "ldhName": "rbs2.com.",
+  "unicodeName": "rbs2.com.",
+  "nameservers": [
+    {
+      "objectClassName": "nameserver",
+      "links": [
+        {
+          "value": "https://rdap.networksolutions.com/rdap/nameserver/NS68.PAIR.COM.",
+          "rel": "self",
+          "href": "https://rdap.networksolutions.com/rdap/nameserver/NS68.PAIR.COM.",
+          "type": "application/rdap+json"
+        }
+      ],
+      "ldhName": "NS68.PAIR.COM.",
+      "unicodeName": "NS68.PAIR.COM."
+    },
+    {
+      "objectClassName": "nameserver",
+      "links": [
+        {
+          "value": "https://rdap.networksolutions.com/rdap/nameserver/NS0.NS0.COM.",
+          "rel": "self",
+          "href": "https://rdap.networksolutions.com/rdap/nameserver/NS0.NS0.COM.",
+          "type": "application/rdap+json"
+        }
+      ],
+      "ldhName": "NS0.NS0.COM.",
+      "unicodeName": "NS0.NS0.COM."
+    }
+  ],
+  "secureDNS": {
+    "delegationSigned": false
+  }
+}
+
+
+
+
+
+Raw Registry RDAP Response
+{
+  "objectClassName": "domain",
+  "handle": "1599098_DOMAIN_COM-VRSN",
+  "ldhName": "RBS2.COM",
+  "links": [
+    {
+      "value": "https://rdap.verisign.com/com/v1/domain/RBS2.COM",
+      "rel": "self",
+      "href": "https://rdap.verisign.com/com/v1/domain/RBS2.COM",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.networksolutions.com/rdap/domain/RBS2.COM",
+      "rel": "related",
+      "href": "https://rdap.networksolutions.com/rdap/domain/RBS2.COM",
+      "type": "application/rdap+json"
+    }
+  ],
+  "status": [
+    "client transfer prohibited"
+  ],
+  "entities": [
+    {
+      "objectClassName": "entity",
+      "handle": "2",
+      "roles": [
+        "registrar"
+      ],
+      "publicIds": [
+        {
+          "type": "IANA Registrar ID",
+          "identifier": "2"
+        }
+      ],
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "Network Solutions, LLC"
+          ]
+        ]
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "roles": [
+            "abuse"
+          ],
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                ""
+              ],
+              [
+                "tel",
+                {
+                  "type": "voice"
+                },
+                "uri",
+                "tel:+1.8777228662"
+              ],
+              [
+                "email",
+                {},
+                "text",
+                "domain.operations@web.com"
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "1998-06-27T04:00:00Z"
+    },
+    {
+      "eventAction": "expiration",
+      "eventDate": "2031-06-26T04:00:00Z"
+    },
+    {
+      "eventAction": "last changed",
+      "eventDate": "2021-06-27T00:20:46Z"
+    },
+    {
+      "eventAction": "last update of RDAP database",
+      "eventDate": "2025-01-08T08:39:59Z"
+    }
+  ],
+  "secureDNS": {
+    "delegationSigned": false
+  },
+  "nameservers": [
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "NS0.NS0.COM"
+    },
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "NS68.PAIR.COM"
+    }
+  ],
+  "rdapConformance": [
+    "rdap_level_0",
+    "icann_rdap_technical_implementation_guide_0",
+    "icann_rdap_response_profile_0"
+  ],
+  "notices": [
+    {
+      "title": "Terms of Use",
+      "description": [
+        "Service subject to Terms of Use."
+      ],
+      "links": [
+        {
+          "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "title": "Status Codes",
+      "description": [
+        "For more information on domain status codes, please visit https://icann.org/epp"
+      ],
+      "links": [
+        {
+          "href": "https://icann.org/epp",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "title": "RDDS Inaccuracy Complaint Form",
+      "description": [
+        "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+      ],
+      "links": [
+        {
+          "href": "https://icann.org/wicf",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+Registration data lookup tool
+Enter a domain name or an Internet number resource (IP Network or ASN)
+Frequently Asked Questions (FAQ)
+bam.nr-data.net
+Lookup
+By submitting any personal data, I acknowledge and agree that the personal data submitted by me will be processed in accordance with the ICANN Privacy Policy, and agree to abide by the website Terms of Service and the registration data lookup tool Terms of Use.
+For additional information on ICANN Accredited Registrars including website and contact information, please visit https://www.icann.org/en/accredited-registrars.
+If the registration data you are seeking is not provided in the lookup results, please use the Registration Data Request Service (RDRS) to submit a request for nonpublic registration data. RDRS is intended for use by requestors with a legitimate interest in accessing nonpublic registration data.
+The requested domain was not found in the Registry or Registrar's RDAP server.
+
+
+
+Blacklists
+blacklist:rbs2.com
+Category	Host	Result	
+Status Ok	blacklist	rbs2.com	ivmURI	information More Info
+Status Ok	blacklist	rbs2.com	Nordspam DBL	information More Info
+Status Ok	blacklist	rbs2.com	SEM FRESH	information More Info
+Status Ok	blacklist	rbs2.com	SEM URI	information More Info
+Status Ok	blacklist	rbs2.com	SEM URIRED	information More Info
+Status Ok	blacklist	rbs2.com	SORBS RHSBL BADCONF	information More Info
+Status Ok	blacklist	rbs2.com	SORBS RHSBL NOMAIL	information More Info
+Status Ok	blacklist	rbs2.com	Spamhaus DBL	information More Info
+Status Ok	blacklist	rbs2.com	SURBL multi	information More Info
+blacklist:mailwash14.pair.com
+Category	Host	Result	
+Status Ok	blacklist	mailwash14.pair.com	ivmURI	information More Info
+Status Ok	blacklist	mailwash14.pair.com	Nordspam DBL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SEM FRESH	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SEM URI	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SEM URIRED	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SORBS RHSBL BADCONF	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SORBS RHSBL NOMAIL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	Spamhaus DBL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SURBL multi	information More Info
+Status Ok	blacklist	mailwash14.pair.com	0SPAM	information More Info
+Status Ok	blacklist	mailwash14.pair.com	0SPAM RBL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	127.0.0.2	information More Info
+Status Ok	blacklist	mailwash14.pair.com	127.0.1.1	information More Info
+Status Ok	blacklist	mailwash14.pair.com	127.0.0.2	information More Info
+Status Ok	blacklist	mailwash14.pair.com	Anonmails DNSBL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	BACKSCATTERER	information More Info
+Status Ok	blacklist	mailwash14.pair.com	BARRACUDA	information More Info
+Status Ok	blacklist	mailwash14.pair.com	BLOCKLIST.DE	information More Info
+Status Ok	blacklist	mailwash14.pair.com	CALIVENT	information More Info
+Status Ok	blacklist	mailwash14.pair.com	CYMRU BOGONS	information More Info
+Status Ok	blacklist	mailwash14.pair.com	DAN TOR	information More Info
+Status Ok	blacklist	mailwash14.pair.com	DRMX	information More Info
+Status Ok	blacklist	mailwash14.pair.com	DRONE BL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	FABELSOURCES	information More Info
+Status Ok	blacklist	mailwash14.pair.com	HIL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	HIL2	information More Info
+Status Ok	blacklist	mailwash14.pair.com	127.0.0.2	information More Info
+Status Ok	blacklist	mailwash14.pair.com	IBM DNS Blacklist	information More Info
+Status Ok	blacklist	mailwash14.pair.com	ICMFORBIDDEN	information More Info
+Status Ok	blacklist	mailwash14.pair.com	IMP SPAM	information More Info
+Status Ok	blacklist	mailwash14.pair.com	IMP WORM	information More Info
+Status Ok	blacklist	mailwash14.pair.com	INTERSERVER	information More Info
+Status Ok	blacklist	mailwash14.pair.com	ivmSIP	information More Info
+Status Ok	blacklist	mailwash14.pair.com	ivmSIP24	information More Info
+Status Ok	blacklist	mailwash14.pair.com	JIPPG	information More Info
+Status Ok	blacklist	mailwash14.pair.com	KEMPTBL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	Konstant	information More Info
+Status Ok	blacklist	mailwash14.pair.com	LASHBACK	information More Info
+Status Ok	blacklist	mailwash14.pair.com	MAILSPIKE BL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	MAILSPIKE Z	information More Info
+Status Ok	blacklist	mailwash14.pair.com	MSRBL Phishing	information More Info
+Status Ok	blacklist	mailwash14.pair.com	MSRBL Spam	information More Info
+Status Ok	blacklist	mailwash14.pair.com	NETHERRELAYS	information More Info
+Status Ok	blacklist	mailwash14.pair.com	NETHERUNSURE	information More Info
+Status Ok	blacklist	mailwash14.pair.com	NIXSPAM	information More Info
+Status Ok	blacklist	mailwash14.pair.com	Nordspam BL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	PSBL	information More Info
+Status Ok	blacklist	mailwash14.pair.com	RATS Dyna	information More Info
+Status Ok	blacklist	mailwash14.pair.com	RATS NoPtr	information More Info
+Status Ok	blacklist	mailwash14.pair.com	RATS Spam	information More Info
+Status Ok	blacklist	mailwash14.pair.com	RBL JP	information More Info
+Status Ok	blacklist	mailwash14.pair.com	s5h.net	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SCHULTE	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SEM BACKSCATTER	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SEM BLACK	information More Info
+Status Ok	blacklist	mailwash14.pair.com	Sender Score Reputation Network	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SERVICESNET	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SPAMCOP	information More Info
+Status Ok	blacklist	mailwash14.pair.com	Spamhaus ZEN	information More Info
+Status Ok	blacklist	mailwash14.pair.com	127.0.0.2	information More Info
+Status Ok	blacklist	mailwash14.pair.com	Suomispam Reputation	information More Info
+Status Ok	blacklist	mailwash14.pair.com	SWINOG	information More Info
+Status Ok	blacklist	mailwash14.pair.com	TRIUMF	information More Info
+Status Ok	blacklist	mailwash14.pair.com	TRUNCATE	information More Info
+Status Ok	blacklist	mailwash14.pair.com	UCEPROTECTL1	information More Info
+Status Ok	blacklist	mailwash14.pair.com	UCEPROTECTL2	information More Info
+Status Ok	blacklist	mailwash14.pair.com	UCEPROTECTL3	information More Info
+Status Ok	blacklist	mailwash14.pair.com	Woodys SMTP Blacklist	information More Info
+Status Ok	blacklist	mailwash14.pair.com	ZapBL	information More Info
+Mail Server
+mx:rbs2.com - 1 Tests Failed
+Pref	Hostname	IP Address	TTL
+50	mailwash14.pair.com	66.39.2.55	60 min
+dmarc:rbs2.com - 1 Tests Failed
+Category	Host	Result	
+Status Problem	dmarc	rbs2.com	No DMARC Record found	information More Info
+smtp:mailwash14.pair.com
+Category	Host	Result	
+Status Ok	smtp	mailwash14.pair.com	OK - 66.39.2.55 resolves to mailwash55.pair.com	information More Info
+Status Ok	smtp	mailwash14.pair.com	OK - Reverse DNS is a valid Hostname	information More Info
+Status Ok	smtp	mailwash14.pair.com	OK - Reverse DNS matches SMTP Banner	information More Info
+Status Ok	smtp	mailwash14.pair.com	OK - Supports TLS.	information More Info
+Status Ok	smtp	mailwash14.pair.com	0.192 seconds - Good on Connection time	information More Info
+Status Ok	smtp	mailwash14.pair.com	OK - Not an open relay.	information More Info
+Status Ok	smtp	mailwash14.pair.com	0.583 seconds - Good on Transaction Time	information More Info
+Session Transcript:
+Transcript: Connecting to 66.39.2.55
+
+Transcript:
+
+Transcript: 220 mailwash55.pair.com ESMTP Postfix [120 ms]
+
+Transcript: EHLO keeper-us-east-1d.mxtoolbox.com
+
+Transcript: 250-mailwash55.pair.com
+
+Transcript: 250-PIPELINING
+
+Transcript: 250-SIZE 104857600
+
+Transcript: 250-ETRN
+
+Transcript: 250-STARTTLS
+
+Transcript: 250-ENHANCEDSTATUSCODES
+
+Transcript: 250-8BITMIME
+
+Transcript: 250-DSN
+
+Transcript: 250 CHUNKING [123 ms]
+
+Transcript: MAIL FROM:<supertool@mxtoolboxsmtpdiag.com>
+
+Transcript: 250 2.1.0 Ok [123 ms]
+
+Transcript: RCPT TO:<test@mxtoolboxsmtpdiag.com>
+
+Transcript: 554 5.7.1 <test@mxtoolboxsmtpdiag.com>: Relay access denied [134 ms]
+
+Transcript:
+
+Transcript: LookupServer 1043ms
+
+Transcript:
+
+spf:rbs2.com - 1 Tests Failed
+Category	Host	Result	
+Status Problem	spf	rbs2.com	No SPF Record found	information More Info
+Type	Domain Name	TTL	Record	Prefix	Value	PrefixDesc	Description
+Web Server
+http:rbs2.com
+Category	Host	Result	
+Status Ok	http	rbs2.com	200 OK	information More Info
+Status Ok	http	rbs2.com	HTTP Filter	information More Info
+Status Ok	http	rbs2.com	Success - response in 36 ms	information More Info
+Dns Server
+dns:rbs2.com - 1 Tests Failed
+Category	Host	Result	
+Status Problem	dns	rbs2.com	Primary Name Server Not Listed At Parent	information More Info
+Status Warning	dns	rbs2.com	Local NS list does not match Parent NS list	information More Info
+Status Warning	dns	rbs2.com	SOA Expire Value out of recommended range	information More Info
+Status Ok	dns	rbs2.com	DNS Record found	information More Info
+Status Ok	dns	rbs2.com	No Bad Glue Detected	information More Info
+Status Ok	dns	rbs2.com	At Least Two Name Servers Found	information More Info
+Status Ok	dns	rbs2.com	All name servers are responding	information More Info
+Status Ok	dns	rbs2.com	All of the name servers are Authoritative	information More Info
+Status Ok	dns	rbs2.com	Name Servers appear to be Dispersed	information More Info
+Status Ok	dns	rbs2.com	Name Servers have Public IP Addresses	information More Info
+Status Ok	dns	rbs2.com	Serial numbers match	information More Info
+Status Ok	dns	rbs2.com	SOA Serial Number Format appears valid	information More Info
+Status Ok	dns	rbs2.com	SOA Refresh Value is within the recommended range	information More Info
+Status Ok	dns	rbs2.com	SOA Retry Value is within the recommended range	information More Info
+Status Ok	dns	rbs2.com	SOA Minimum TTL Value is within allowed values	information More Info
+Status Ok	dns	rbs2.com	No Open Recursive Name Server Detected	information More Info
+DNS
+Type	Domain Name	IP Address	TTL	Time (ms)	Status	Auth	Parent	Local
+NS	ns0.ns0.com	216.92.55.21	60 min	10	Status Ok	Status Ok	Status Ok	Status Ok
+NS	ns567.pair.com	216.92.178.38	60 min	10	Status Ok	Status Ok	Status Problem	Status Ok
+NS	ns68.pair.com	209.68.1.145		10	Status Ok	Status Ok	Status Ok	Status Problem
+Session Transcript:
+TimeStamp:
+LookupServer 828ms
+
+Depth: 1
+ServerName: c.gtld-servers.net
+ServerIP: 192.26.92.30
+Authoritative: NON-AUTH
+ElapsedTime: 0 ms
+Result: Received 2 Referrals , rcode=NO_ERROR
+Question:
+Answers: rbs2.com. 172800 IN NS ns0.ns0.com,rbs2.com. 172800 IN NS ns68.pair.com,
+
+TimeStamp:
+Depth: 2
+ServerName: ns68.pair.com
+ServerIP: 209.68.1.145
+Authoritative: AUTH
+ElapsedTime: 10 ms
+Result: Received 2 Answers , rcode=NO_ERROR
+Question:
+Answers: rbs2.com. 3600 IN NS ns0.ns0.com,rbs2.com. 3600 IN NS ns567.pair.com,
